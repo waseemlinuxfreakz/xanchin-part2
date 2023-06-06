@@ -1,0 +1,1034 @@
+/* Responsive */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* Responsive */
+
+@media only screen and (max-width: 1450px) {}
+
+/*  (max-width: 1450px) */
+
+@media only screen and (min-width: 1200px) {
+    .gameCart.row .col-xl-2 {
+        width: 20%;
+    }
+}
+
+/*  (max-width: 1260px) */
+
+@media only screen and (max-width: 1200px) {
+    .faq_container {
+        max-width: 665px;
+    }
+
+}
+
+/*  (max-width: 1100px) */
+
+@media only screen and (min-width: 992px) {
+    .MobileDipoWith {
+        display: none !important;
+    }
+
+    .container {
+        max-width: 850px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1199px) {
+
+    .container {
+        max-width: 950px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    
+    .pokerReward,
+    .startCard_area {
+        margin-top: 30px;
+    }
+
+    .userBettingList {
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .bettingList {
+        height: auto;
+        overflow: unset;
+        max-height: unset;
+    }
+
+}
+
+/* (max-width: 1199px) */
+
+/*  (min-width: 768px) and (max-width: 991px) */
+
+@media only screen and (max-width: 991px) {
+
+    .bankrollBox {
+        margin-bottom: 25px;
+    }
+
+    .deskDipoWith {
+        display: none !important;
+    }
+
+    /* Nav Menu Css Start  */
+
+    a.navbar-brand {
+        margin-right: auto;
+    }
+
+    div#navbarCollapse {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background: #13223F;
+        z-index: 22;
+    }
+
+    div#navbarCollapse .navbar-nav {
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#navbarCollapse .navbar-nav a.nav-link {
+        display: inline-block !important;
+        margin: 0;
+        max-width: fit-content;
+    }
+
+    div#navbarCollapse .navbar-nav a.sportMenu.nav-link,
+    div#navbarCollapse .navbar-nav a.gameMenu.nav-link {
+        width: 100% !important;
+        max-width: unset;
+        margin-bottom: 10px;
+    }
+
+
+    /* Nav Menu Css End  */
+
+    img.desklogo {
+        display: none;
+    }
+
+    .Mobilelogo {
+        display: block;
+    }
+
+    .waxp-dime {
+        flex-direction: column;
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        margin-top: -130px;
+    }
+
+    .waxp-dime .hrLine {
+        width: 85%;
+        height: 1px;
+        border: 0;
+        border-bottom: 1.00053px solid #3A5283;
+        margin: 27px 0;
+    }
+
+    .swapBtns {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .swapBtns>a {
+        margin: 0 0 15px 0;
+        width: 100%;
+        max-width: 260px;
+    }
+
+    .exchangeTokken {
+        margin-bottom: 20px;
+    }
+
+    .walletBtnBox {
+        margin-bottom: 30px;
+    }
+
+    .wallet_top {
+        padding: 70px 15px 178px;
+    }
+
+    .header_area .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .languageDrop {
+        display: none;
+    }
+
+    .affilate_content {
+        max-width: 415px;
+        margin: 0 auto;
+    }
+
+    .affilate_qr {
+        margin-bottom: 13px;
+        display: flex;
+    }
+
+    .the_qr {
+        flex-grow: 1;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .qr_bottom {
+        padding: 55px 25px;
+        width: 178px;
+    }
+
+    .affilate_qr .BlueBtn {
+        width: 100%;
+    }
+
+    .the_qr>img {
+        max-width: 95px;
+    }
+
+    section.affilate_area {
+        padding: 45px 10px 35px 10px;
+    }
+
+    .contactUsContainer {
+        max-width: 500px;
+    }
+
+    .bismlDipoWith.MobileDipoWith {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .bismlDipoWith.MobileDipoWith>* {
+        margin: 0 10px;
+    }
+
+}
+
+/*and (max-width: 991px)*/
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {}
+
+/* (min-width: 426px) and (max-width: 767px) */
+
+@media only screen and (max-width: 767px) {
+
+    .betTitle {
+        font-size: 27px;
+        line-height: 46px;
+        margin-bottom: 25px;
+    }
+
+    .betUser {
+        margin-bottom: 24px;
+    }
+
+    .betResult {
+        width: 400px;
+        height: 400px;
+    }
+
+    .betrow.row {
+        margin-top: -179px;
+    }
+
+    .faq_container {
+        max-width: 510px;
+    }
+
+    .contactBox {
+        padding: 25px 15px;
+    }
+
+    .contactBox .BlueBtn {
+        width: 70px;
+    }
+
+    .contactUsContainer {
+        max-width: 320px;
+    }
+
+    .affilate_content {
+        max-width: 320px;
+    }
+
+    .affilate_qr h3 {
+        font-size: 17px;
+    }
+
+    .FootermobileMenu {
+        display: block;
+    }
+
+    .footer_content {
+        display: none;
+    }
+
+    ul.footer_nav {
+        justify-content: center;
+    }
+
+    .gameroundResult>img {
+        width: 46px;
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    a.walletLink.grayBtn>span {
+        display: none;
+    }
+
+    a.walletLink.grayBtn>img {
+        margin: 0;
+        width: 28px;
+    }
+
+    a.walletLink.grayBtn {
+        background: transparent;
+        border: 0;
+        padding: 0;
+    }
+
+    .beatingGroundRow.row {
+        flex-direction: column-reverse;
+    }
+
+    .beatingGroundRow.row>div {
+        width: 100% !important;
+    }
+
+    .gameCardStart {
+        background: linear-gradient(92deg, rgba(45, 74, 130, 0.3) 0%, rgba(45, 74, 130, 0) 100%);
+        border-radius: 3.46815px;
+        flex-direction: unset;
+        align-items: center;
+    }
+
+    .gameCardStart {}
+
+    .gameCardStart .gameCounter {
+        margin: 0;
+        text-align: left;
+        margin-right: auto;
+    }
+
+    .gameCardStart .gameCounter p {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .gameStartCardBox {
+        margin: 0 0 0 0;
+        display: flex;
+    }
+
+    .gameWillCard {
+        margin: 0 0 0 10px;
+    }
+
+    .gameWillCard img {
+        max-width: 50px;
+    }
+
+    .gameStartWill {
+        margin-bottom: 20px;
+    }
+
+    .gameCardItemImg img {
+        height: 50px;
+        margin-bottom: 13px;
+    }
+
+    .bankRollIcon img {
+        width: 24px;
+    }
+
+    .bankRollIcon {
+        height: 84px;
+        width: 100px;
+    }
+
+    .bankWallet {
+        padding: 10px 30px;
+    }
+
+    .bankWallet .affilate_number {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
+    .bankWallet .affilate_number img {
+        width: 18px;
+    }
+
+    .bankWallet p {
+        font-size: 10px;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+
+    .currentNumber .affilate_number {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .currentNumber .affilate_number img {
+        width: 16px;
+    }
+
+    .currentNumber {
+        margin-bottom: 20px;
+    }
+
+    .bankRollWithdrawBox {
+        padding: 20px 40px;
+    }
+
+    .bankRollList ul {
+        height: auto;
+    }
+
+    .classic_disc {
+        padding: 18px 30px 35px 30px;
+    }
+    
+    .classicDiscBeat {
+        padding: 0 20px;
+    }
+
+    .clasicdice_area .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .theSpin:after {
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .dailySpin h2 {
+        font-size: 36px;
+    }
+
+    .ShakeDishCardRow.row>div {
+        flex-grow: 1;
+    }
+    
+    .gameStartCardBox {
+    }
+    
+    .verticalDotList {
+        flex-direction: unset;
+        padding: 8px 10px;
+    }
+    
+    .verticalDotList .dottedItem span {
+        width: 13.61px;
+        height: 13.61px;
+    }
+    
+    .gameCounter h2 {
+        font-size: 23px;
+    }
+    
+    .gameStartWill {
+        margin-bottom: 10px;
+    }
+
+    .game_Counter h2 {
+        font-size: 46px;
+    }
+
+    .game_Counter p {
+        font-size: 13px;
+    }
+
+    .beatAmount {
+        padding: 18px 10px;
+    }
+
+    .crashBeatOnColor {
+        display: block;
+    }
+    
+    .CrashBeaBox .beatAmountRow.row {
+        flex-direction: column;
+    }
+    
+    .CrashBeaBox .beatAmountRow.row> div {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .CrashBeaBox .beatAmountRow.row> div a.BlueBtn {
+        margin-top: 15px;
+    }
+    
+    .beatColorBox.row {
+        padding: 13px 5px;
+    }
+    
+    .beatAmount {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 25px;
+    }
+    
+    .beatAmount .inputCol {
+        margin: 0;
+    }
+    
+    .beatAmount h3 {
+        margin: 0;
+    }
+    
+    li.colorCol.col-2 {
+        width: 25%;
+    }
+    
+    .graphBox ul.beatColorLst.row {
+        top: 0;
+    }
+
+    .graphBox {
+        margin-top: 50px;
+    }
+
+    .crashBeatOn.crashBeatOnAmount {
+        margin-bottom: 15px;
+    }
+
+    .theAmount.theAmountx>span {
+        width: 20%;
+    }
+
+    .playerCardBoxInner img {
+        display: block;
+        width: 33.33333%;
+        padding: 2px;
+    }
+    
+    .baccaratPlayerBanker .col-md-6.col-12 {
+        order: -1;
+    }
+    
+    .BaccaratBlock.BaccaratBlockRight img, .BaccaratBlock.BaccaratBlockLeft img {
+        display: none;
+    }
+    
+    .BaccaratBlock.BaccaratBlockRight, .BaccaratBlock.BaccaratBlockLeft {
+        background: #14274A;
+        margin-top: 7px;
+    }
+
+    .gameCounterCircle {
+        height: 150px;
+    }
+
+    .gameStartCardBox {
+        width: 204px;
+    }
+    
+    .gameStartCardBox .gameWillCard {
+        width: 33.333%;
+        margin-left: 10px;
+    }
+
+}
+
+/* and (max-width: 767px) */
+
+@media only screen and (max-width: 520px) {
+
+    .gameCounterCircle {
+        padding-top: 25px;
+        height: 91px;
+    }
+    
+    .gameCounter h2 {
+        font-size: 20.0896px;
+        line-height: 1;
+    }
+    
+    .gameCounterCircle p {
+        font-size: 7.97008px;
+    }
+    
+    .BaccaratGameTop.row {
+        margin: 0 -3px;
+    }
+    
+    .BaccaratGameTop.row> div {
+        padding: 0 3px;
+    }
+    
+    .playerCardBox p {
+        font-size: 8px;
+        line-height: 1;
+        margin: 0 0 5px 8px;
+        text-align: left;
+    }
+
+    .graphBox {
+        margin-top: 30px;
+    }
+
+    .dailySpin h2 {
+        font-size: 28px;
+    }
+
+    .classic_disc {
+        padding: 18px 20px 35px 20px;
+    }
+
+    .faq_container {
+        max-width: 320px;
+    }
+
+    .swapModal .modal-dialog {
+        max-width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .swapFormModal.modal-body {
+        border-radius: 10px;
+    }
+
+    .modalTItle {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        max-width: 231px;
+    }
+
+    span.modalTitleArt {
+        max-width: 248px;
+        margin-top: -26px;
+    }
+
+    img.closeModal {
+        right: 10px;
+        top: 10px;
+    }
+
+    .waxp-dime {
+        max-width: 310px;
+        padding: 30px;
+    }
+
+    .waxp-dime .hrLine {
+        width: 100%;
+    }
+
+    .waxoBox h2 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .inputCol input,
+    .inputCol select,
+    .inputCol textarea {
+        font-weight: 500;
+        font-size: 14.0993px;
+        line-height: 17px;
+        padding: 11px 23px;
+    }
+
+    .inputCol {
+        margin-bottom: 22px;
+    }
+
+    .formBtn {
+        margin-top: 45px;
+    }
+
+    .LoginLogo {
+        width: 256px;
+    }
+
+    .alert_box {
+        padding: 18px 3px;
+        font-weight: 400;
+        font-size: 21.3931px;
+        line-height: 36px;
+    }
+
+    .login_container .container {
+        max-width: 340px;
+        padding: 0 15px;
+    }
+
+    .loginFormContainer .alert_box {
+        width: 100%;
+    }
+
+    .blueBtn {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 36px;
+    }
+
+    .betResult {
+        width: 270px;
+        height: 270px;
+        padding-top: 46px;
+    }
+
+    .betTitle {
+        font-size: 16.772px;
+        line-height: 28px;
+        border-radius: 5px;
+    }
+
+    .gameCounter h2 {
+        font-family: 'Jaldi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33.897px;
+        line-height: 37px;
+        color: #FFFFFF;
+    }
+
+    .gameCounter {
+        font-family: 'Jaldi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.38598px;
+        line-height: 14px;
+        color: #7AA0E9;
+    }
+
+    .betColBox .BlueBtn {
+        width: 100%;
+        font-size: 15.1777px;
+        line-height: 23px;
+    }
+
+    .betUser {
+        font-size: 15.507px;
+        line-height: 19px;
+    }
+
+    .betUser span.color-ornage {
+        font-size: 11.90435px;
+        line-height: 17px;
+    }
+
+    .betCounters.inputCol input {
+        font-size: 14.5198px;
+        line-height: 22px;
+    }
+
+    .betCounters.inputCol {
+        margin: 0 auto 20px auto;
+    }
+
+    .betTitle:after {
+        border-radius: 5px;
+    }
+
+    .betrow.row {
+        margin-top: -99px;
+    }
+
+    .gameroundResult>img {
+        width: 34px;
+        margin: 0 3px;
+    }
+
+    .gameRoundTop p {
+        margin-bottom: 3px;
+    }
+
+    .menuPageTitme {
+        display: none;
+    }
+
+    .coinFlipCircle>img {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .flipBox {
+        padding: 40px 25px;
+    }
+
+    .coinFlipCircle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .coinHeadTails {
+        width: 130px;
+    }
+
+    .coinHeTe {
+        padding: 10px 10px 10px 20px;
+        font-size: 13px;
+        margin: 0 0 8px 0;
+    }
+
+    .coinHeTe img {
+        width: 22px;
+    }
+
+    img.SingleCard {
+        width: 20%;
+        padding: 3px;
+    }
+    
+    .cardList_area {
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+    
+    .threeCardBox {
+        padding: 20px;
+    }
+    
+    .cardImgText p {
+        font-size: 11px;
+        line-height: 1;
+    }
+    
+    .cardImgText h3 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .cardDragBox>h3 {
+        font-size: 12px;
+    }
+
+    .gameOverModal .modal-body {
+        width: 80%;
+        max-width: 310px;
+        margin: 0 auto;
+    }
+    
+    .gameOverModal .modal-body h2 {
+        font-size: 38px;
+        line-height: 1.5;
+    }
+    
+    .gameOverModal .modal-body p {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+   
+    .NumberItem {
+        font-size: 10px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+    
+    .winBox {
+        width: 75%;
+        height: 82px;
+        max-width: 280px;
+    }
+    
+    .winTitle {
+        font-size: 17px;
+    }
+    
+    .winNumber {
+        font-size: 23px;
+    }
+    
+    .winRange.selectRange {
+        border-radius: 10px;
+        padding: 22px 22px;
+        margin-top: 0;
+    }
+    
+    .classicDiscBeat .play_amount>h3 {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    
+    .classicDiscBeat {
+        padding: 0;
+    }
+    
+    .WinAmountBox.select_range_area {
+        padding: 11px 15px;
+        border-radius: 8px;
+    }
+
+    .poker_box {
+        padding: 0 15px 30px 15px;
+    }
+    
+    .poker_title.beatRankg {
+        font-size: 12px;
+        padding: 8px 27px;
+        line-height: 1;
+        height: auto;
+    }
+    
+    .poker_cards.row, .poker_dimeBtn .row {
+        margin: 0 -3px 20px -3px;
+    }
+    
+    .poker_cards.row> div, .poker_dimeBtn .row> div {
+        padding: 0 3px;
+    }
+    
+    .poker_Spin_btns.dualBtn> * {
+        min-width: unset;
+    }
+    
+    .poker_Spin_btns.dualBtn {
+        margin: 13px auto 0 auto;
+    }
+    
+    button.BlueBtn.SpinBtn {
+        font-size: 18px;
+        line-height: 21px;
+        width: 50%;
+    }
+
+    .ShakeDishCardRow.gameCardList.row {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .ShakeDishCardRow.row>div {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .cardNumber {
+        font-size: 10px;
+        line-height: 1.3;
+        border-radius: 0px 0px 5px 5px;
+    }
+    
+    .gameCardItem.shakeDishCard>h3 {
+        font-size: 13.2829px;
+        line-height: 15px;
+    }
+    
+    .cardDott {
+        width: 9px;
+        height: 9px;
+    }
+    
+    ul.cardDotList {
+        max-width: 68px;
+    }
+    
+    .lineOr {
+        margin: 9px auto;
+    }
+    
+    .lineOr span {
+        font-size: 10.0263px;
+        line-height: 8px;
+    }
+    
+    .cardDotted {
+        min-height: 52px;
+    }
+    
+    .verticalDotList {
+        border-radius: 7px;
+    }
+
+    .graphBox ul.beatColorLst.row {
+        top: -10px;
+        padding: 0 5px;
+    }
+    
+    .colorBeatItem {
+        font-size: 11px;
+        border-radius: 4px;
+    }
+    
+    li.colorCol.col-2 {
+        padding: 2.5px;
+    }
+    
+    .CrashColorGame .graphBox .game_Counter {
+        width: 100%;
+    }
+    
+    .color_box {
+        font-size: 10px;
+    }
+    
+    .color_box_col span.color-orange {
+        font-size: 9px;
+    }
+    
+    .color_box>span {
+        height: 8px;
+        width: 8px;
+    }
+    
+    .beatColorBox.row {
+        padding: 13px 0px 13px 12px;
+        margin: 0 -5px;
+    }
+    
+    .beatColorBox.row .col {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .beatStartBottom .flexBox {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    
+    .beatStartBottom.BaccaratGameStart {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .playerCardBoxInner:empty {
+        padding-bottom: 44%;
+        min-height: unset;
+        width: 100%;
+    }
+
+    .gameStartCardBox {
+        width: 160px;
+    }
+
+}
+
+/* (max-width: 520px) */
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {}
+
+/*  (min-width: 320px) and (max-width: 425px) */
+
+@media only screen and (max-width: 480px) {}
+
+/* (max-width: 480px) */
+
+@media only screen and (max-width: 360px) {}
+
+/* (max-width: 360px)  */

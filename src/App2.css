@@ -1,0 +1,500 @@
+.color-yellow {
+    color: #FFA800;
+}
+
+.color-blue {
+    color: #69A5FF;
+}
+
+.lottrey_row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 45px 0 20px 0;
+}
+
+.lattery_colum {
+    position: relative;
+    z-index: 1;
+    padding: 33px 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomepageWrapArea> .container {
+    max-width: 920px;
+}
+
+.spinnLattery {
+    background-image: url(assets/img/new/homepage/homebg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.max3dLattery {
+    background-image: url(assets/img/new/homepage/homebg-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jackpotLattery {
+    background-image: url(assets/img/new/homepage/homebg-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lattery_colum h2 {
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 1;
+    margin: 0;
+}
+
+.lattery_colum h4 {
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 1;
+    color: #FFE400;
+    margin: 0;
+}
+
+img.SpinnImg {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+img.BallImg {
+    display: block;
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+    height: 90%;
+}
+
+.lattery_colum.max3dLattery {
+    justify-content: flex-end;
+}
+
+.lattery_colum.jackpotLattery {
+    background-size: 100% 100%;
+}
+
+img.JackpotImg {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.lattery_colum.jackpotLattery> div p {
+    font-weight: 400;
+    font-size: 17.9849px;
+    line-height: 25px;
+    margin: 0;
+    letter-spacing: 0.005em;
+    color: #FFE400;
+    margin-top: 5px;
+}
+
+.color-w {
+    color: #fff;
+}
+
+.time {
+    display: flex;
+    gap: 10px;
+}
+
+.lattery_colum.jackpotLattery .time> p {
+    font-weight: 800;
+    font-size: 18.9849px;
+    line-height: 26px;
+    margin: 0;
+    color: #fff;
+}
+
+.lattery_colum.jackpotLattery .time> p span {
+    color: #FFE400;
+    font-size: 12px;
+}
+
+.lattery_colum.jackpotLattery .timeRemaining> p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.timeRemaining {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 18%;
+    bottom: 5px;
+}
+
+.lattery_colum.jackpotLattery> div p span {
+    font-weight: 800;
+}
+
+.lattery_colum.max3dLattery div {
+    text-align: right;
+}
+
+.LotterypageWrap .container {
+    max-width: 1210px;
+    padding-top: 45px;
+}
+
+.blueCard {
+    background: linear-gradient(180deg, #0E1D3A 0%, #0E1D3A 100%);
+    border: 1.00156px solid #3B5585;
+    border-radius: 10.0156px;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.timeCountDown {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    right: 20px;
+    gap: 5px;
+    align-items: center;
+}
+
+.timeCountDown p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    color: #FFA800;
+}
+
+.timeCountDown p span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.selectNumberLott {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 34px 0;
+}
+
+.selectNumberLott h2 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1;
+    margin: 0 0 5px 0;
+}
+
+.selectNumberLott p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #7AA0E9;
+}
+
+.selectNumberLott:after {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 84%;
+    content: "";
+    background: linear-gradient(180deg, #203660 -0.57%, rgba(19, 37, 71, 0) 39.18%, rgba(19, 37, 71, 0) 40.79%);
+    border-radius: 50%;
+}
+
+.rangeInput {
+    background: #0E1D3A;
+    border: 1.41574px solid #3B5585;
+    border-radius: 13.3542px;
+    padding: 26px 35px;
+    /* max-width: 615px; */
+    /* margin: 0 auto; */
+}
+
+.rangeInput input {
+    display: block;
+    width: 100%;
+}
+
+.rangeNumber {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 0px 10px;
+}
+
+.numberRange {
+    max-width: 615px;
+    margin: 0 auto;
+}
+
+.rangeNumber p {
+    margin: 0;
+    line-height: 2;
+    color: #7AA0E9;
+    font-size: 16px;
+}
+
+.lotteryBeat {
+    max-width: 530px;
+    margin: 10px auto 0 auto;
+}
+
+.beat_amounts {
+    background: #0E1D3A;
+    border: 0.667708px solid #3B5585;
+    border-radius: 10.0156px;
+    padding: 10px 15px 10px 15px;
+}
+
+.amoiunt_to_beat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15.3573px;
+    line-height: 26px;
+}
+
+.amoiunt_to_beat button {
+    font-weight: 400;
+    font-size: 12.0077px;
+    line-height: 20px;
+    color: #7AA0E9;
+    width: 75%;
+    max-width: 110px;
+    background: transparent;
+    border: 1px solid #6483BF;
+    border-radius: 4.99455px;
+    padding: 3px;
+}
+
+.beat_amounts .numberRange {
+    padding-top: 8px;
+}
+
+.numberRange> input {
+    display: block;
+    width: 100%;
+}
+
+.beat_amounts .rangeNumber {
+    padding: 5px 0 0 0;
+    line-height: 1;
+}
+
+.dualButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.dualButton> button {
+    font-weight: 400;
+    font-size: 13.8523px;
+    line-height: 23px;
+    display: flex;
+    height: 33px;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 0.809175px solid #3D5C99;
+    border-radius: 5px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    transition: .3s ease all;
+}
+
+.dualButton> button:hover {
+    background: rgba(104, 150, 240, 0.3);
+}
+
+.buyTicketsBtn {
+    font-weight: 400;
+    font-size: 16.6927px;
+    line-height: 28px;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    height: 54px;
+    border: 0;
+    align-items: center;
+    cursor: pointer;
+    background: url(assets/img/new/Frame.png);
+    background-size: 100% 100%;
+}
+
+.beat_amounts .rangeNumber p {
+    line-height: 1;
+}
+
+.how_to_playBox> h2 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+
+.howToPlayCard {
+    text-align: center;
+    background: rgb(44 71 121 / 20%);
+    border-radius: 9.7939px;
+    padding: 35px 12px;
+    margin-bottom: 15px;
+}
+
+.howToPlayCard h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+.howToPlayCard p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #7C96CA;
+    margin: 0;
+}
+
+.how_to_playBox h5 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+}
+
+.LotterypageWrap .bettingList {
+    min-height: 360px;
+}
+
+.LotterypageNumber2 .timeCountDown {
+    position: unset;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.selectNumberLott.selectNumberLottBtns:after {
+    display: none;
+}
+
+.selectNumberLottBtnsList {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.selectNumberLottBtnsList button {
+    height: 55px;
+    background: #203660;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    flex-grow: 1;
+    max-width: 169px;
+}
+
+.selectNumberLott.selectNumberLottBtns {
+    max-width: 530px;
+    padding: 24px 0;
+}
+
+.how_to_playBox {
+    margin-top: 25px;
+}
+
+button.opacity5 {
+    background: linear-gradient(180deg, #203660 -0.57%, rgba(19, 37, 71, 0.5) 100%);
+    opacity: 0.5;
+}
+
+.selectNumberLott> h4 {
+    font-weight: 400;
+    font-size: 17.9572px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.ResultPageWrape> .container {
+    max-width: 658px;
+    padding-top: 45px;
+}
+
+.resultTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resultCol {
+    background: rgba(3, 6, 12, 0.2);
+    border-radius: 8.39286px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 25px 28px;
+}
+
+.resultCol> p {
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 30px;
+    color: #6483BF;
+}
+
+.resultCol .selectNumberLottBtnsList button {
+    background: rgba(86, 141, 255, 0.3);
+}
+
+.resultCol .selectNumberLottBtnsList {
+    margin: 0;
+    padding: 0;
+}
+
+.resultPageWrap .container {
+    padding-top: 45px;
+}
+
+.bettingList table.table thead {
+    background: #132547;
+}
+
+.bettingList {
+    padding: 0;
+}
+
+.bettingList table.table tr td, .bettingList table.table tr th {
+    padding: 10px 25px !important;
+}
+
+.bettingList {
+    max-height: unset;
+}
