@@ -5,7 +5,7 @@ import UserBettingList from './UserBettingList';
 
 function Lotterypage() {
     return ( 
-        <div className="PageWraper LotterypageWrap">
+        <div className="PageWraper LotterypageWrap  pt-5">
             <Header/>
             <div className="container">
                 <div className="row">

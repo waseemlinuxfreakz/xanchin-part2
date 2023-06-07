@@ -2,7 +2,7 @@ import React from 'react';
 
 function UserBettingList() {
     return ( 
-        <div className="userBettingList">
+        <div className="userBettingList mt-0">
             <h2>User Betting List</h2>
             <div className="bettingList">
                 <table className="table">

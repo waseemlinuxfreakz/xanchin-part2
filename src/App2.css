@@ -6,6 +6,10 @@
     color: #69A5FF;
 }
 
+.color-orange {
+    color: #FFA800;
+}
+
 .lottrey_row {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,8 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    height: 169px;
+    align-items: center;
 }
 
 .HomepageWrapArea> .container {
@@ -69,12 +75,15 @@ img.SpinnImg {
     right: 0;
     bottom: 0;
     height: 100%;
+    max-width: 65%;
+    object-position: bottom;
+    object-fit: cover;
 }
 
 img.BallImg {
     display: block;
     position: absolute;
-    left: 80px;
+    left: 7%;
     bottom: 0;
     height: 90%;
 }
@@ -90,9 +99,19 @@ img.BallImg {
 img.JackpotImg {
     position: absolute;
     z-index: -1;
+    right: 3%;
+    bottom: 0;
+    height: 100%;
+}
+
+img.jackpotbg {
+    position: absolute;
+    z-index: -1;
     right: 0;
     bottom: 0;
     height: 100%;
+    mix-blend-mode: color-dodge;
+    opacity: 0.4;
 }
 
 .lattery_colum.jackpotLattery> div p {
@@ -153,7 +172,6 @@ img.JackpotImg {
 
 .LotterypageWrap .container {
     max-width: 1210px;
-    padding-top: 45px;
 }
 
 .blueCard {
@@ -167,7 +185,7 @@ img.JackpotImg {
 
 .timeCountDown {
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     display: flex;
     right: 20px;
     gap: 5px;
@@ -214,7 +232,7 @@ img.JackpotImg {
 
 .selectNumberLott:after {
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     left: 0;
     top: 0;
     width: 100%;
@@ -444,9 +462,8 @@ button.opacity5 {
     margin: 0;
 }
 
-.ResultPageWrape> .container {
+.ResultPageWrape3> .container {
     max-width: 658px;
-    padding-top: 45px;
 }
 
 .resultTop {
@@ -497,4 +514,161 @@ button.opacity5 {
 
 .bettingList {
     max-height: unset;
+}
+
+p.starNumber {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+p.starNumber img {
+    margin-right: 7px;
+}
+
+p.starNumber span {
+    color: #FFA800;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    margin-right: 5px;
+}
+
+.select_box select {
+    border: 0.75px solid #6483BF;
+    border-radius: 5.20952px;
+    background: transparent;
+    color: #6483BF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 5px 15px;
+}
+
+.resultNumberItem {
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: rgba(3, 6, 12, 0.2);
+    border-radius: 8.39286px;
+    font-weight: 400;
+    font-size: 15.1071px;
+    line-height: 26px;
+    color: #5D74A3;
+    width: calc(10% - 6px);
+    transition: .3s ease all;
+}
+
+.ResultPageWrape .resultContainer {
+    max-width: 564px;
+    margin: 0 auto;
+}
+
+.result_number {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+button.resultNumberItem:hover, 
+button.resultNumberItem.active {
+    color: #FFFFFF;
+    background: rgba(86, 141, 255, 0.3);
+}
+
+.resultNumberItem span {
+    position: absolute;
+    font-size: 11px;
+    line-height: 1;
+    color: #FFA800;
+    right: 5px;
+    top: 5px;
+}
+
+.resultNumberItem.activeWiner {
+    background: #FFA800 !important;
+    color: #fff !important;
+}
+
+.ResultPageWrape2 .container {
+    max-width: 971px;
+}
+
+.resultCartDate {
+    text-align: right;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #6483BF;
+}
+
+.resultCart {
+    background: rgba(3, 6, 12, 0.2);
+    border-radius: 8.39286px;
+    padding: 12px 20px 20px 25px;
+}
+
+.resultColum {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin-right: 15px;
+}
+
+.resultTitle {
+    font-weight: 400;
+    font-size: 15.1071px;
+    line-height: 26px;
+    width: 125px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.winingPrice {
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFA800;
+}
+
+.resultColum .result_number {
+    flex-grow: 1;
+    padding-right: 50px;
+}
+
+.resultColum .result_number button {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(86, 141, 255, 0.3);
+    border-radius: 8.39286px;
+    border: 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15.1071px;
+    line-height: 1;
+    width: calc(12% - 6px);
+}
+
+.resultColum .result_number.startResult button {
+    background: #FFA800;
+}
+
+.resultColum .result_number.startResult button img {
+    margin-right: 2px;
+}
+
+.lotteryBeat .row> div {
+    width: 50% !important;
+    max-width: 50% !important;
+}
+
+.resultPageWrap .userBettingList {
+    margin: 0 !important;
 }

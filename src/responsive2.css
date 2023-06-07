@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1024px) {
+
+    .lattery_colum h2 {
+        font-size: 43px;
+    }
+    
+    .lattery_colum h4 {
+        font-size: 24px;
+    }
+
+    .jackpotText p {
+        font-size: 15px !important;
+    }
+
+    .LotterypageWrap>.container>.row> div {
+        width: 100%;
+    }
+    
+    .LotterypageWrap>.container>.row> div.col-lg-7 {
+        margin-bottom: 30px;
+    }
+
+}/* (max-width: 1024px) */
+
+@media only screen and (max-width: 767px) {
+
+    .lattery_colum h2 {
+        font-size: 32px;
+    }
+    
+    .lattery_colum h4 {
+        font-size: 18px;
+    }
+
+    .jackpotText {
+        max-width: 270px;
+    }
+
+    img.jackpotbg {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        mix-blend-mode: color-dodge;
+        opacity: 0.4;
+    }
+    
+    img.JackpotImg {
+        width: 220px;
+        right: 1%;
+    }
+    
+    .timeRemaining {
+        transform: scale(.8);
+        right: 8%;
+        bottom: 11%;
+    }
+    
+    img.jackpotbg {
+        right: -11%;
+    }
+
+    .selectNumberLott h2 {
+        font-size: 40px;
+    }
+    
+    .selectNumberLott p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    
+    .selectNumberLott {
+        padding: 23px 0;
+        max-width: 250px;
+    }
+    
+    .timeCountDown p {
+        font-size: 25px;
+    }
+    
+    .timeCountDown p span {
+        font-size: 17px;
+    }
+    
+    .numberRange {
+        max-width: unset;
+        width: calc(100% - 40px);
+    }
+
+    .beat_amounts .numberRange {
+        width: calc(100% - 0px);
+    }
+    
+    .amoiunt_to_beat {
+        font-size: 14px;
+    }
+
+    .resultTop p {
+        font-size: 15px;
+    }
+    
+    .resultTitle {
+        font-size: 12px;
+        width: 90px;
+    }
+    
+    .resultColum .result_number button {
+        font-size: 11px;
+    }
+    
+    .resultColum .result_number button img {
+        width: 11px;
+    }
+    
+    .resultCartDate, .winingPrice {
+        font-size: 12px;
+    }
+    
+    .resultCart {
+        padding: 12px 10px 20px 10px;
+    }
+    
+    .resultColum {
+        margin: 0;
+    }
+    
+    .resultColum .result_number {
+        padding-right: 20px;
+    }
+
+}/* (max-width: 767px) */
+
+
+@media only screen and (max-width: 575px) {
+
+    .lattery_colum {
+        padding: 33px 20px;
+    }
+    
+    img.SpinnImg {
+        height: 77%;
+        right: -8%;
+        object-fit: contain;
+        max-width: unset;
+    }
+    
+    img.BallImg {
+        left: 3%;
+        height: 77%;
+    }
+    
+    .jackpotText p {
+        font-size: 12px !important;
+    }
+    
+    .jackpotText {
+        width: 200px !important;
+    }
+    
+    img.JackpotImg {
+        width: 221px;
+        right: -2%;
+    }
+    
+    .timeRemaining {
+        right: 9%;
+    }
+
+    .amoiunt_to_beat button {
+        width: auto;
+        padding: 3px 5px;
+    }
+    
+    .buyTicketsBtn {
+        font-size: 15px;
+    }
+
+    .howToPlayCard h3 {
+        font-size: 16px;
+    }
+    
+    .howToPlayCard p {
+        font-size: 14px;
+    }
+    
+    .howToPlayCard {
+        padding: 25px 12px;
+    }
+
+    .resultNumberItem {
+        height: 44px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    
+    .resultNumberItem span {
+        font-size: 8px;
+        right: 3px;
+        top: 3px;
+    }
+
+    .resultColum .result_number {
+        gap: 3px;
+    }
+    
+    .resultColum .result_number button {
+        font-size: 8px;
+        width: calc(12% - 3px);
+    }
+
+    .selectNumberLottBtnsList button {
+        font-size: 12px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    
+    .resultCol {
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    .resultCol> p {
+        font-size: 12px;
+    }
+
+    .resultTop p {
+        font-size: 14px;
+    }
+
+    .bettingList table.table tr td, .bettingList table.table tr th {
+        padding: 10px !important;
+        font-size: 12px;
+    }
+
+}/* (max-width: 575px) */
+

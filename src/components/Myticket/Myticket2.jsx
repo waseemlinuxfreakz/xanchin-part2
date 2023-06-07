@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 
-function Myticket() {
+function Myticket2() {
     return (
         <div className="PageWraper resultPageWrap">
             <Header />
@@ -20,127 +20,109 @@ function Myticket() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-orange'>Pending</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D PRO : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-red'>Loss</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-green'>Win</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-orange'>Pending</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D PRO : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-red'>Loss</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-green'>Win</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-orange'>Pending</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D PRO : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-red'>Loss</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-green'>Win</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-orange'>Pending</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D PRO : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-red'>Loss</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-green'>Win</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-orange'>Pending</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D PRO : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-red'>Loss</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-green'>Win</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-orange'>Pending</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D PRO : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-red'>Loss</span></td>
                                 </tr>
                                 <tr>
-                                    <td>DE : 45</td>
-                                    <td><span className='color-blue'>100.123456789</span></td>
-                                    <td>10:00 am 08 May 2023</td>
-                                    <td><span className='color-green'>Win</span></td>
-                                </tr>
-                                <tr>
-                                    <td>DE : 45</td>
-                                    <td><span className='color-blue'>100.123456789</span></td>
-                                    <td>10:00 am 08 May 2023</td>
-                                    <td><span className='color-orange'>Pending</span></td>
-                                </tr>
-                                <tr>
-                                    <td>DE : 45</td>
-                                    <td><span className='color-blue'>100.123456789</span></td>
-                                    <td>10:00 am 08 May 2023</td>
-                                    <td><span className='color-red'>Loss</span></td>
-                                </tr>
-                                <tr>
-                                    <td>DE : 45</td>
+                                    <td>MAX 3D : 565 - 232</td>
                                     <td><span className='color-blue'>100.123456789</span></td>
                                     <td>10:00 am 08 May 2023</td>
                                     <td><span className='color-green'>Win</span></td>
@@ -155,4 +137,4 @@ function Myticket() {
     );
 }
 
-export default Myticket;
+export default Myticket2;

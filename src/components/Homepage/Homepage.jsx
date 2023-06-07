@@ -5,6 +5,8 @@ import Footer from '../Footer';
 import Spinn from '../../assets/img/new/homepage/spinwheel.svg';
 import Ball from '../../assets/img/new/homepage/ball.svg';
 import Jackpot from '../../assets/img/new/homepage/jackpot.svg';
+import jackpotbg from '../../assets/img/new/homepage/jackpotbg.png';
+
 
 function Homepage() {
     return ( 
@@ -28,12 +30,13 @@ function Homepage() {
                             </div>
                         </div>
                         <div className="lattery_colum jackpotLattery">
-                            <div>
+                            <div className='jackpotText'>
                                 <h2>2500 DIME</h2>
                                 <h4>JACKPOT PRICE</h4>
                                 <p><span className='color-w'>1000</span> Tickets Winner from <span className="color-w">5,00,000</span> Sold Out Tickets</p>
                             </div>
                             <img src={Jackpot} alt="Ball" className='JackpotImg' />
+                            <img src={jackpotbg} alt="Ball" className='jackpotbg' />
                             <div className="timeRemaining">
                                 <div className="time"> 
                                     <p>1<span>d</span></p>

@@ -7,6 +7,7 @@ import 'swiper/css';
 import './App.css';
 import './App2.css';
 import './responsive.css';
+import './responsive2.css';
 
 import {storeAppDispatch} from './GlobalState/Store';
 import { setToken } from './GlobalState/UserReducer';
@@ -39,7 +40,11 @@ import Lotterypage from "./components/Lotterypage/Lotterypage";
 import Lotterypage2 from "./components/Lotterypage/Lotterypage2";
 import Lotterypage3 from "./components/Lotterypage/Lotterypage3";
 import Resultpage from "./components/Resultpage/Resultpage";
+import Resultpage2 from "./components/Resultpage/Resultpage2";
+import Resultpage3 from "./components/Resultpage/Resultpage3";
 import Myticket from "./components/Myticket/Myticket";
+import Myticket2 from "./components/Myticket/Myticket2";
+import Myticket3 from "./components/Myticket/Myticket3";
 
 
 
@@ -116,9 +121,11 @@ function App() {
             <Route path="/Lotterypage2" element={<Lotterypage2 />} />
             <Route path="/Lotterypage3" element={<Lotterypage3 />} />
             <Route path="/Resultpage" element={<Resultpage />} />
+            <Route path="/Resultpage2" element={<Resultpage2 />} />
+            <Route path="/Resultpage3" element={<Resultpage3 />} />
             <Route path="/Myticket" element={<Myticket />} />
-            
-            
+            <Route path="/Myticket2" element={<Myticket2 />} />
+            <Route path="/Myticket3" element={<Myticket3 />} />
             
           </Route>
         </Routes>
